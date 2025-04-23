@@ -6,33 +6,35 @@ Query an alphabetically ordered list of all names in the OCCUPATIONS table, imme
 
 ## 🗂 Table Structure
 The OCCUPATIONS table has the following columns:
-Name – The name of the person
-Occupation – The person's job title (Doctor, Professor, Singer, Actor)
+| Column         | Type    |
+|----------------|---------|
+| Name   | String  |
+| Occupation       | String  |
 
 ## 🛠️ Solution Breakdown
 I solved this problem by breaking it down into manageable steps:
 
 **1. Sort names alphabetically**
 
-SELECT Name 
+<pre>SELECT Name 
 FROM OCCUPATIONS 
-ORDER BY Name ASC;
+ORDER BY Name ASC;</pre>
 
 **2. Extract the first letter of the occupation**
 
-SELECT SUBSTRING(Occupation, 1, 1) 
-FROM OCCUPATIONS;
+<pre>SELECT SUBSTRING(Occupation, 1, 1) 
+FROM OCCUPATIONS;</pre>
 
 **3. Wrap the first letter in parentheses**
 
-SELECT CONCAT('(', SUBSTRING(Occupation, 1, 1), ')') 
-FROM OCCUPATIONS;
+<pre>SELECT CONCAT('(', SUBSTRING(Occupation, 1, 1), ')') 
+FROM OCCUPATIONS;</pre>
 
 **4. Combine name and formatted occupation**
 
-SELECT CONCAT(Name, CONCAT('(', SUBSTRING(Occupation, 1, 1), ')')) 
+<pre>SELECT CONCAT(Name, CONCAT('(', SUBSTRING(Occupation, 1, 1), ')')) 
 FROM OCCUPATIONS 
-ORDER BY Name ASC;
+ORDER BY Name ASC;</pre>
 
 
 
