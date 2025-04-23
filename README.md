@@ -1,0 +1,1 @@
+# The-Pads-HackerRank-SQL-Solution
