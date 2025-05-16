@@ -63,10 +63,10 @@ GROUP BY Occupation
 ORDER BY COUNT(Occupation) ASC;</pre>
 
 
-##🧠 Key SQL Functions Used
+## 🧠 Key SQL Functions Used
 - CONCAT() - To merge strings
 - SUBSTRING() - To extract a portion of the occupation string
 - ORDER BY - To alphabetize the results
 
-##✅ Final Output
+## ✅ Final Output
 ![Alt Text](PadCompany.png)
