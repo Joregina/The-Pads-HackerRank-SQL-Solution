@@ -1,4 +1,4 @@
-# 📘 SQL Challenge – Formatting Names with Occupation Initials
+# 📘 SQL Challenge - Formatting Names with Occupation Initials
 This repository contains my solution to a classic SQL problem that requires formatting names from a database and appending the first letter of their occupation in parentheses.
 
 ## 🧩 Problem Statement
@@ -64,9 +64,9 @@ ORDER BY COUNT(Occupation) ASC;</pre>
 
 
 ##🧠 Key SQL Functions Used
-- CONCAT() – To merge strings
-- SUBSTRING() – To extract a portion of the occupation string
-- ORDER BY – To alphabetize the results
+- CONCAT() - To merge strings
+- SUBSTRING() - To extract a portion of the occupation string
+- ORDER BY - To alphabetize the results
 
 ##✅ Final Output
 ![Alt Text](PadCompany.png)
